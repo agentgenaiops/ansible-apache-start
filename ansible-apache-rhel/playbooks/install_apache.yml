@@ -1,0 +1,5 @@
+- name: Install Apache Web Server on RHEL
+  hosts: all
+  become: yes
+  roles:
+    - apache
